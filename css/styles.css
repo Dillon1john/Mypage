@@ -64,7 +64,14 @@ ul{
   list-style: none;
 }
 
-.p1{
+strong{
+  font-weight:bold;
+  color:#11999E;
+
+
+}
+
+/* .p1{
   margin:5px auto 5px;
   border: 1px #66BFBF solid;
   border-radius: 25px;
@@ -110,7 +117,7 @@ ul{
   float: right;
   margin-left: 15px;
   margin-right: 100px;
-}
+} */
 
 .topPage{
   background-color: #E4F9F5;
@@ -119,7 +126,7 @@ ul{
 
 }
 
-.btn {
+.contact-btn {
    background: #66BFBF;
    background-image: -webkit-linear-gradient(top, #66BFBF, #2C9C9C);
    background-image: -moz-linear-gradient(top, #66BFBF, #2C9C9C);
@@ -145,7 +152,7 @@ ul{
    text-align: center;
 }
 
-.btn:hover {
+.contact-btn:hover {
    border: solid #66BFBF 1px;
    background: #2C9C9C;
    background-image: -webkit-linear-gradient(top, #2C9C9C, #B0E1E1);
@@ -246,11 +253,24 @@ ul{
   text-decoration: none;
 }
 
+
+/* Project pages */
 .pythonTable{
   /* margin: 40px 100px 60px; */
-  margin:40px 0 1560px 100px;
+  margin:40px 100px 150px 100px;
   line-height: 2;
 }
+
+.JavaTable{
+  /* margin: 40px 100px 60px; */
+  margin:40px 100px 150px 100px;
+  line-height: 2;
+}
+
+.project-column{
+  margin: 20px 0 20px 0;
+}
+
 
 .prolink:hover{
   /* color: #EAF6F6; */
