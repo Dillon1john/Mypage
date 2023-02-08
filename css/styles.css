@@ -255,13 +255,7 @@ strong{
 
 
 /* Project pages */
-.pythonTable{
-  /* margin: 40px 100px 60px; */
-  margin:40px 100px 150px 100px;
-  line-height: 2;
-}
-
-.JavaTable{
+.projectTable{
   /* margin: 40px 100px 60px; */
   margin:40px 100px 150px 100px;
   line-height: 2;
